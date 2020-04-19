@@ -1,0 +1,75 @@
+.any-questions {
+  padding: 170px 365px 100px 365px;
+  display: flex;
+
+
+
+
+  h2 {
+    width: 350px;
+    font-size: 49px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 22px;
+  }
+
+  p {
+    margin-bottom: 42px;
+  }
+
+  li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+
+  .form {
+    position: relative;
+    margin-left: 142px;
+      p{
+        color: rgba(112, 112, 112, 1);
+        font-size: 12px;
+        padding-left: 30px;
+
+      }
+    form > input{
+      width: 20px;
+      height: 20px;
+      float: left;
+
+    }
+
+
+
+
+    label,input {
+      display: block;
+
+    }
+    input{
+      &[type='submit']{
+        height: 57px;
+        position: absolute;
+        right: 0px;
+        bottom: -40px;
+        width: 226px;
+        border-radius: 35px;
+        font-weight: bold;
+        font-size: 13px;
+        color: white;
+        background-color: rgba(8, 166, 228, 1);
+      }
+      font-size: 1.5rem;
+      height: 3rem;
+      border: none;
+      border-bottom: 1px solid lightgrey;
+      width: 440px;
+
+    }
+    label{
+      margin-bottom: 41px;
+      font-size: 11px;
+      color: rgba(8, 166, 228, 1);
+    }
+  }
+
+}

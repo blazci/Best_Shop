@@ -1,0 +1,19 @@
+
+@import "generic/reset";
+@import "settings/variables";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Raleway:300,400,700&display=swap');
+
+
+//MIXINS
+@import "settings/mixins";
+
+//ELEMENTS
+
+@import "elements/base";
+@import "elements/header";
+@import "elements/sellMore";
+@import "elements/mostPopular";
+@import "elements/advantages";
+@import "elements/pricing";
+@import "elements/anyQuestions";
+@import "elements/footer";

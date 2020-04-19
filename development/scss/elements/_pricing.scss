@@ -1,0 +1,115 @@
+.pricing{
+  padding: 114px 180px;
+  text-align: center;
+  .packs-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  h2{
+    font-family: 'Raleway',sans-serif;
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
+  h3{
+    font-family: 'Raleway',sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  p{
+    margin-bottom: 20px;
+
+  }
+
+  .pack{
+    padding: 36px 118px 60px 118px;
+    border-radius: 18px;
+
+    ul{
+      img{
+        width: 15px;
+        height: 15px;
+        margin-right: 10px;
+
+      }
+      margin-top: 61px;
+      li{
+
+        margin-bottom: 20px;
+
+      }
+  }
+
+    .basic-list{
+    margin-top: 97px}
+  }
+  .pack-price{
+    font-size: 46px;
+  }
+  .basic{
+    height: 460px;
+    position: relative;
+    border: 1px solid rgba(251, 59, 100, 1);
+    p{
+      color: rgba(251, 59, 100, 1);
+
+    }
+    a{
+      text-decoration: none;
+      color: #fff;
+      background-color: rgba(251, 59, 100, 1);
+      border-radius: 23px;
+      padding: 12px 57px;
+      position: absolute;
+      bottom: -20px;
+      right: 105px;
+
+    }
+  }
+  .professional{
+    box-shadow: 5px 10px 27px rgba(7, 172, 230, 0.16);
+    height: 500px;
+    position: relative;
+    border: 1px solid rgba(7, 172, 230, 1);
+    p{
+      &:nth-child(2){
+        color: rgba(7, 172, 230, 1);}
+    }
+    a{
+      text-decoration: none;
+      color: #fff;
+      background-color: rgba(7, 172, 230, 1);
+      border-radius: 23px;
+      padding: 12px 57px;
+      position: absolute;
+      bottom: -20px;
+      right: 105px;
+
+    }
+  }
+  .premium{
+    height: 460px;
+    position: relative;
+    border: 1px solid rgba(85, 223, 180, 1);
+    p{
+      &:nth-child(2){
+        color: rgba(85, 223, 180, 1);}
+    }
+    a{
+      text-decoration: none;
+      color: #fff;
+      background-color: rgba(85, 223, 180, 1);
+      border-radius: 23px;
+      padding: 12px 57px;
+      position: absolute;
+      bottom: -20px;
+      right: 105px;
+
+    }
+  }
+
+
+
+}
